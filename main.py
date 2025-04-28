@@ -9,7 +9,7 @@ def run_as_admin():
                 None, "runas", sys.executable, " ".join(sys.argv), None, 1
             )
         except Exception as e:
-            print(f"오류 발생: {e}")
+            print(f"{e}")
         sys.exit()
 
 def add_context_menu_option_cmd():
